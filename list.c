@@ -59,13 +59,14 @@ void * firstList(List * list) {
     return NULL;
   }
 
-  list-> current = list-> head;  //asigna el primer dato al actual
-
-  return &(list-> current-> data);
+  return list-> head-> data;
 }
 
 void * nextList(List * list) {
-    return NULL;
+  
+
+
+  
 }
 
 /*
