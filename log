@@ -413,3 +413,13 @@ list.c:150:8: error: expected identifier before ‘>’ token
       |        ^
 Compilation failed
 c1c9a39
+Thu 24 Aug 2023 08:32:43 PM UTC: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:150:7: error: ‘List’ {aka ‘struct List’} has no member named ‘aux’
+  150 |   list-> aux -> next = newNode;
+      |       ^~
+Compilation failed
+254548e
