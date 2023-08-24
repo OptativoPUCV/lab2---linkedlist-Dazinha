@@ -44,7 +44,7 @@ List* createList()
 
   newList-> head = NULL;
 
-  
+  return newList;
 }
 
 /*
