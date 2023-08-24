@@ -89,7 +89,7 @@ void * lastList(List * list)
   }
   else
   {
-    return list-> tail = current;
+    return list-> tail = list-> current;
   }
 
 }
