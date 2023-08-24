@@ -35,17 +35,16 @@ Node * createNode(void * data) {
 
 List* createList()
 {
-  List* newList = (List *) malloc(sizeof(List));
-  
-  if(newList == NULL)
+  List* newlist = (List *) malloc(sizeof(List));
+
+  if (newList == NULL)
   {
-    printf("Error");
     exit(1);
   }
 
   newList-> head = NULL;
+
   
-  return newList;
 }
 
 /*
