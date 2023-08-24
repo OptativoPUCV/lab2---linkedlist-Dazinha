@@ -144,7 +144,7 @@ void pushBack(List * list, void * data)
 void pushCurrent(List * list, void * data)
 {
   Node* newNode = createNode(data);
-  newNode-> next = list-> head;
+  newNode-> head = list-> head;
 
   list-> current-> next = newNode;
 }
