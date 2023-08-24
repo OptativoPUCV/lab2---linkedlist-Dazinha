@@ -54,7 +54,14 @@ List* createList()
 */
 
 void * firstList(List * list) {
+  if(list-> head == NULL)
+  {
     return NULL;
+  }
+
+  list-> current = list-> head;  //asigna el primer dato al actual
+
+  return &(list-> current-> data);
 }
 
 void * nextList(List * list) {
