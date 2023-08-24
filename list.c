@@ -89,8 +89,7 @@ void * lastList(List * list)
   }
 
   return list-> tail-> data;
-  
-  return NULL;
+
 }
 
 void * prevList(List * list) {
