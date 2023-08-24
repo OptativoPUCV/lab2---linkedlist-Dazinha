@@ -62,7 +62,9 @@ void * firstList(List * list) {
   return list-> head-> data;
 }
 
-void * nextList(List * list)
+void * nextList(List * list){
+  return NULL;
+}
   
 
 
