@@ -39,7 +39,7 @@ List* createList()
 
   if (newList == NULL)
   {
-    exit(1);
+    exit(0);
   }
 
   newList-> head = NULL;
