@@ -62,12 +62,11 @@ void * firstList(List * list) {
   return list-> head-> data;
 }
 
-void * nextList(List * list) {
+void * nextList(List * list)
   
 
 
   
-}
 
 /*
 3. Programe las funciones `void * lastList(List * list)` y `void * prevList(List * list)`.
