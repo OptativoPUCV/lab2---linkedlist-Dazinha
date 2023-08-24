@@ -2,3 +2,13 @@ Thu 24 Aug 2023 04:23:50 PM UTC:
  tests:  0|6
 total_score: 0/70
 29755a2
+Thu 24 Aug 2023 04:40:05 PM UTC: 
+ list.c | 47 +++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 45 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+list.c: In function ‘createList’:
+list.c:40:3: error: expected ‘,’ or ‘;’ before ‘if’
+   40 |   if(newList == NULL)
+      |   ^~
+Compilation failed
+4042eb6
