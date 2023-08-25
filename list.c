@@ -191,13 +191,13 @@ void * popCurrent(List * list)
   }
   
   Node *nodeDelete = list-> current;
-  void *data 
+  void *data = nodeDelete -> data;
 
   list-> current = list-> current-> next;
 
   free(nodeDelete);
   
-  return data
+  return data;
 }
 
 
