@@ -145,6 +145,8 @@ void pushCurrent(List * list, void * data)
 {
   Node* newNode = createNode(data);
 
+  if (new)
+  
   if (list-> current-> next == NULL)
   {
     list-> current-> next = newNode;

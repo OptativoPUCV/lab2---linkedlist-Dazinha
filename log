@@ -509,3 +509,18 @@ Fri 25 Aug 2023 11:12:49 PM UTC:
  tests:  10|2
 total_score: 45/70
 814250b
+Fri 25 Aug 2023 11:14:45 PM UTC: 
+ list.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:
+list.c: In function ‘pushCurrent’:
+list.c:148:7: error: ‘new’ undeclared (first use in this function)
+  148 |   if (new)
+      |       ^~~
+list.c:148:7: note: each undeclared identifier is reported only once for each function it appears in
+list.c:148:6: error: suggest explicit braces to avoid ambiguous ‘else’ [-Werror=dangling-else]
+  148 |   if (new)
+      |      ^
+cc1: all warnings being treated as errors
+Compilation failed
+f714fec
