@@ -183,9 +183,24 @@ void * popBack(List * list) {
 Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `popCurrent` y `pushCurrent` (búsquelas en el código).
 */
 
-void * popCurrent(List * list) {
+void * popCurrent(List * list)
+{
+  if (list-> current == NULL)
+  {
     return NULL;
+  }
+  
+  Node *nodeDelete = list-> current;
+  void *data 
+
+  list-> current = list-> current-> next;
+
+  free(nodeDelete);
+  
+  return data
 }
+
+
 
 void cleanList(List * list) {
     while (list->head != NULL) {
