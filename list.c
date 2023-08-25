@@ -185,10 +185,12 @@ Las funciones `pushBack`, `popFront` y `popBack` se pueden implementar usando `p
 
 void * popCurrent(List * list)
 {
+  void *data == NULL;
+  
   if (list-> current != NULL)
   {
     Node *nodeDelete = list-> current;
-    void *data = nodeDelete -> data;
+    data = nodeDelete -> data;
 
     list-> current = list-> current-> next;
 
