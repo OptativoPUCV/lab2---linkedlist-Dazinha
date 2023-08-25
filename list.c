@@ -153,8 +153,10 @@ void pushCurrent(List * list, void * data)
 
     list-> tail = newNode;
   }
-
-  
+  else
+  {
+    return;
+  }
 }
 
 /*
