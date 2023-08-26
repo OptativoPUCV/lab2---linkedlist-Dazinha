@@ -661,3 +661,9 @@ Sat 26 Aug 2023 01:34:47 AM UTC:
  tests:  12|0
 total_score: 70/70
 22901dc
+Sat 26 Aug 2023 01:37:23 AM UTC: 
+ list.c | 20 +++++++++++++-------
+ 1 file changed, 13 insertions(+), 7 deletions(-)
+ tests:  12|0
+total_score: 70/70
+5509e35
